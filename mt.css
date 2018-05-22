@@ -1,0 +1,104 @@
+header{
+    width: 100%;
+    font-size: 25;
+    color: antiquewhite;
+    background-color:black;
+    height: auto;    
+    padding: 50px;
+    border: 0px solid red;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10%;
+    justify-content: space-between;
+}
+.m1:hover,
+.m2:hover,
+.m3:hover,
+.m4:hover,
+.m5:hover {
+    visibility: visible;
+            cursor: pointer;
+    background-color:lightskyblue;
+}
+img {
+    height: 400px;
+    width: 280px;
+}
+.m1{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    background-color: white;
+}
+.m2{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    background-color: white;
+}
+.m3{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    background-color: white;
+}
+.m4{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    background-color: white;
+}
+.m5{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    background-color: white;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top:100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 5% auto; /* 5% from the top and centered */
+    padding: 20px;
+    width: 560px; /* Could be more or less, depending on screen size */
+    min-height:500px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    background-color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left:5px;
+    padding-right:5px;
+}
+body{
+    background-color: blanchedalmond;
+}
