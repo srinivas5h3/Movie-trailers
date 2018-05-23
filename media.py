@@ -1,4 +1,13 @@
 import webbrowser
+"""
+        class movie:
+            represents a movie objets
+            Args:
+                 title = a string of the movie's title
+                 poster_image_url = a string containing a URL to a poster image
+                 trailer_youtube_url =
+                 a string containing a youtube URL of the movie's trailer
+"""
 
 
 class Movie():
